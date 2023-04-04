@@ -13,7 +13,7 @@ $primeiraIdade = $idades[0];
 $conta = [
     'nome' => 'Geisson', // para acessar a chave de 'nome', ficaria assim: $conta['nome'] que retornaria ao nome 'Geisson'.
     'saldo' => 100000000 // para acessar a chave de 'saldo', ficaria assim: $conta['saldo'] que retornaria ao saldo de '100000000'.
-]
+];
 
 // É possível também inserir arrays associativos dentro de um array comum, por exemplo:
 
@@ -32,7 +32,7 @@ $conta3 = [
     'saldo' => 3000
 ];
 
-$contas = [$conta1; $conta2; $conta3];
+$contas = [$conta1, $conta2, $conta3];
 // para acessar a nome da conta1 ficaria assim: $contas[0]['nome']
 
 
