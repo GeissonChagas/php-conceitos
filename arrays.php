@@ -35,5 +35,35 @@ $conta3 = [
 $contas = [$conta1, $conta2, $conta3];
 // para acessar a nome da conta1 ficaria assim: $contas[0]['nome']
 
+//adicionando itens em um array: 
+
+$idades = [21, 19, 18, 15, 22, 25, 28, 29]; /*Se eu quero adicionar um item ao final deste array*/
+$idades[] = 55; /* basta inserir chaves vazias e o valor que deseja <adicionar></adicionar>*/
+
+// adicionando itens em um array associativo:
+$conta1 = [
+    'nome' => 'sujeito1',
+    'saldo' => 1000
+];
+
+$conta2 = [
+    'nome' => 'sujeito2',
+    'saldo' => 2000
+];
+
+$conta3 = [
+    'nome' => 'sujeito3',
+    'saldo' => 3000
+];
+
+$contas = [$conta1, $conta2, $conta3];
+
+$contas = [$conta4] = [ /*nesse exemplo estou adicionando mais uma conta com nome e saldo*/
+    'nome' => 'sujeito4'
+    'saldo' => 4000
+]
+
+
+
 
 ?>
