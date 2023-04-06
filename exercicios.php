@@ -54,7 +54,7 @@ echo "Digite o valor que deseja converter de metros para centímetros:" ;
 $nMetros = readline();
 $nConvertido = ($nMetros * 100);
 
-echo "O valor digitado ($nMetros) em metros equivale a $nConvertido centímetros!";
+echo "O valor digitado ($nMetros) em metros equivale a $nConvertido centímetros!" . PHP_EOL . PHP_EOL;
 
 echo "########################################################################################################################" . PHP_EOL . PHP_EOL;
 echo "Exercício 6: Faça um script que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário." . PHP_EOL . PHP_EOL;
@@ -63,6 +63,19 @@ echo "Digite aresta do quadrado em m: ";
 $lado = readline();
 
 $areaQuadrado = ($lado ** 2);
-echo "A área do quadrado com os lados igual a $lado m é igual a $areaQuadrado m²! "
+echo "A área do quadrado com os lados igual a $lado m é igual a $areaQuadrado m²! " . PHP_EOL . PHP_EOL;
+
+echo "########################################################################################################################" . PHP_EOL . PHP_EOL;
+echo "Exercício 7: Faça um script que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês." . PHP_EOL . PHP_EOL;
+
+echo "Quanto você ganha por hora trabalhada? ";
+$valorPorHora = readline() . PHP_EOL . PHP_EOL;
+
+echo "Quantas horas você trabalha por mês? ";
+$horasTrabalhadas = readline() . PHP_EOL . PHP_EOL;
+
+$salario = ($valorPorHora * $horasTrabalhadas); 
+
+echo "O seu salário mensal é de R$: $salario,00";
 
 ?>
