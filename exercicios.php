@@ -56,6 +56,13 @@ $nConvertido = ($nMetros * 100);
 
 echo "O valor digitado ($nMetros) em metros equivale a $nConvertido centímetros!";
 
+echo "########################################################################################################################" . PHP_EOL . PHP_EOL;
+echo "Exercício 6: Faça um script que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário." . PHP_EOL . PHP_EOL;
 
+echo "Digite aresta do quadrado em m: ";
+$lado = readline();
+
+$areaQuadrado = ($lado ** 2);
+echo "A área do quadrado com os lados igual a $lado m é igual a $areaQuadrado m²! "
 
 ?>
