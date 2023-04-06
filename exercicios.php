@@ -20,7 +20,20 @@ $numeroPedido = readline();
 echo "O número pedido foi $numeroPedido" . PHP_EOL . PHP_EOL;
 
 echo "########################################################################################################################" . PHP_EOL . PHP_EOL;
-echo "Exercício 3: Faça um script que peça dois números e imprima a soma.";
+echo "Exercício 3: Faça um script que peça dois números e imprima a soma." . PHP_EOL . PHP_EOL;
+
+echo "Digite o primeiro número:" . PHP_EOL;
+$n1 = readline();
+echo "Digite o segundo número:" . PHP_EOL;
+$n2 = readline() . PHP_EOL . PHP_EOL;
+
+$soma = $n1 + $n2;
+
+echo "A soma dos números é igual a $soma!" . PHP_EOL . PHP_EOL;
+
+
+
+
 
 
 
