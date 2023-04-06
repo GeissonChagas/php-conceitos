@@ -45,4 +45,17 @@ $nota3 = readline();
 
 $media = ($nota1 + $nota2 + $nota3)/3;
 echo "A média das três notas é: $media" . PHP_EOL . PHP_EOL;
+
+echo "########################################################################################################################" . PHP_EOL . PHP_EOL;
+echo "Exercício 5: Faça um script que converta metros para centímetros." . PHP_EOL . PHP_EOL;
+
+echo "Digite o valor que deseja converter de metros para centímetros:" ;
+
+$nMetros = readline();
+$nConvertido = ($nMetros * 100);
+
+echo "O valor digitado ($nMetros) em metros equivale a $nConvertido centímetros!";
+
+
+
 ?>
