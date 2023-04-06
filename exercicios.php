@@ -31,12 +31,18 @@ $soma = $n1 + $n2;
 
 echo "A soma dos números é igual a $soma!" . PHP_EOL . PHP_EOL;
 
+echo "########################################################################################################################" . PHP_EOL . PHP_EOL;
+echo "Exercício 4: Faça um script que peça 3 notas de um aluno e mostra sua média." . PHP_EOL . PHP_EOL;
 
+echo "Digite a primeira nota:" . PHP_EOL;
+$nota1 = readline();
 
+echo "Digite a segunda nota:" . PHP_EOL;
+$nota2 = readline();
 
+echo "Digite a terceira nota:" . PHP_EOL;
+$nota3 = readline();
 
-
-
-
-
+$media = ($nota1 + $nota2 + $nota3)/3;
+echo "A média das três notas é: $media" . PHP_EOL . PHP_EOL;
 ?>
